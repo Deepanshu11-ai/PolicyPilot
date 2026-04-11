@@ -11,8 +11,11 @@ def generate_answer(question, chunks):
     prompt = f"""
 You are an insurance expert.
 
-Answer ONLY using the context below.
-If not found, say "Not mentioned in policy".
+Use the context below to answer the question.
+
+- Be helpful and explanatory
+- If partially found, still answer
+- Do NOT say "not mentioned" unless absolutely nothing is relevant
 
 Context:
 {context}

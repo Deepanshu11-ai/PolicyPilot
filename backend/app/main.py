@@ -12,3 +12,13 @@ app.include_router(chat.router)
 @app.get("/")
 def home():
     return {"message": "API running 🚀"}
+
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)

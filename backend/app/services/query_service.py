@@ -8,8 +8,8 @@ def retrieve_chunks(question, user_id):
 
     response = supabase.rpc("match_documents", {
         "query_embedding": embedding,
-        "match_threshold": 0.5,
-        "match_count": 5,
+        "match_threshold": 0.3,
+        "match_count": 8,
         "user_id_input": user_id
     }).execute()
 
