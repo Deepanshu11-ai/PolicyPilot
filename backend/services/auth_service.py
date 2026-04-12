@@ -1,6 +1,4 @@
-from services.supabase_client import supabase 
-
-from services.supabase_client import supabase
+from backend.services.supabase_client import supabase
 
 
 def signup_user(email: str, password: str):
