@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from routes import upload, documents
+from backend.routes import auth, upload, documents
 
 app = FastAPI(
     title="AI Insurance Backend",
