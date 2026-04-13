@@ -131,7 +131,9 @@ npm start
 - `/api/hidden/` → Hidden clauses  
 - `/api/compare/` → Compare policies  
 ---
-
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Django](https://img.shields.io/badge/Django-Backend-green)
+![AI](https://img.shields.io/badge/AI-RAG%20%2B%20ML-orange)
 ## 🧪 How to Use
 
 1. **Upload Policy**
