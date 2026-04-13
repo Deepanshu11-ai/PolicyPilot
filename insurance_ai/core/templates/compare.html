@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Compare Policies</title>
+</head>
+<body>
+
+<h1>Compare Policies ⚔️</h1>
+
+<label>Policy 1:</label>
+<input type="number" id="p1">
+
+<label>Policy 2:</label>
+<input type="number" id="p2">
+
+<button onclick="compare()">Compare</button>
+
+<pre id="result"></pre>
+
+<script src="{% static 'main.js' %}"></script>
+
+</body>
+</html>

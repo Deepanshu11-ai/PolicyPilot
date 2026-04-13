@@ -1,0 +1,93 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Insurance AI</title>
+</head>
+<body>
+
+<h1>Insurance AI Dashboard 🚀</h1>
+
+<!-- Upload -->
+<h2>Upload Policy</h2>
+<input type="file" id="file">
+<button onclick="upload()">Upload</button>
+
+<p id="upload_result"></p>
+
+<hr>
+
+<!-- Select Policy -->
+<h2>Select Active Policy</h2>
+<input type="number" id="active_policy" placeholder="Enter policy ID">
+<button onclick="setPolicy()">Set Policy</button>
+
+<p id="current_policy"></p>
+
+<hr>
+
+<!-- Coverage -->
+<h2>Coverage</h2>
+<button onclick="getCoverage()">Get Coverage</button>
+<pre id="coverage"></pre>
+
+<hr>
+
+<!-- Ask -->
+<h2>Ask</h2>
+<input type="text" id="query">
+<button onclick="ask()">Ask</button>
+<pre id="answer"></pre>
+
+<hr>
+
+<!-- Simulator -->
+<h2>Scenario</h2>
+<input type="text" id="scenario">
+<button onclick="simulate()">Run</button>
+<pre id="simulation"></pre>
+
+<hr>
+
+<!-- Score -->
+<h2>Score</h2>
+<button onclick="score()">Get Score</button>
+<pre id="score"></pre>
+
+<hr>
+
+<!-- Hidden -->
+<h2>Hidden Clauses</h2>
+<button onclick="getHiddenClauses()">Check</button>
+<pre id="hidden"></pre>
+
+<hr>
+
+<hr>
+
+<h2>Claim Predictor (AI + ML)</h2>
+
+<input type="text" id="claim_scenario" placeholder="Describe your claim">
+
+<button onclick="predictClaim()">Predict Claim</button>
+
+<pre id="claim_result"></pre>
+
+
+
+
+
+<br><br>
+
+<button onclick="predictClaim()">Predict Claim</button>
+
+<pre id="claim_result"></pre>
+
+<!-- Compare Navigation -->
+<h2>Compare</h2>
+<a href="/compare-page/">Go to Compare Page ⚔️</a>
+
+<script src="{% static 'main.js' %}"></script>
+
+</body>
+</html>
