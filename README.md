@@ -101,9 +101,7 @@ source .venv/bin/activate
 ### 3. Install Dependencies
 
 ```bash
-cd insurance_ai
-
-pip install -r requirements.txt
+pip install django djangorestframework langchain langchain-community langchain-core langchain-groq chromadb sentence-transformers scikit-learn pandas numpy pypdf python-dotenv
 ```
 
 ### 4. Apply Database Migrations
