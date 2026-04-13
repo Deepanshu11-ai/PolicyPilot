@@ -121,15 +121,6 @@ npm install
 npm start
 ```
 
----
-
-### 6. Open Application
-
-```
-http://127.0.0.1:8000/
-```
-
----
 
 ## 🧪 How to Use
 
