@@ -120,7 +120,17 @@ cd insurance_ai/frontend
 npm install
 npm start
 ```
+---
+## 🔗 API Endpoints
 
+- `/api/upload-policy/` → Upload policy  
+- `/api/coverage/` → Get coverage details  
+- `/api/ask/` → Ask questions  
+- `/api/simulate/` → Scenario simulation  
+- `/api/claim-predict/` → ML prediction  
+- `/api/hidden/` → Hidden clauses  
+- `/api/compare/` → Compare policies  
+---
 
 ## 🧪 How to Use
 
